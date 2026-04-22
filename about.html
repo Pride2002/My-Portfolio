@@ -1,89 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<body>
-  <!-- navbar -->
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><b>About Me</b></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="head">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: white"
+            ><b>MALEN PRIDE</b></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="home.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-        </li>
-        
-      </ul>
-      
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html" style="color: white"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="about.html"
+                  style="color: white"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="projects.html"
+                  style="color: white"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="contact.html"
+                  style="color: white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="about">
+        <!-- <h1 style="text-align: center; margin-bottom: 70px;"><i class="fa-solid fa-user-tie" style="color: navy;"></i> About Me</h1> -->
+        <img
+          src="me.jpg"
+          alt="A photo of Malen Pride"
+          style="
+            width: 200px;
+            height: 250px;
+            border-radius: 50%;
+            margin-left: 40%;
+            float: inline-end;
+            margin: 0px 50px;
+          "
+        />
+        <h4 style="text-align: center; margin-top: 100px; margin-bottom: 30px">
+          <i class="fa-regular fa-lightbulb" style="color: gold"></i
+          ><b><i>WHO AM I??</i></b>
+        </h4>
+        <p style="text-align: left; margin-left: 20px; line-height: 1.8">
+          <i
+            >I am Malen Pride, a front-end web developer driven by the belief
+            that every user deserves a fast, beautiful, and accessible digital
+            experience. My journey started with curiosity about how websites
+            work, evolved through academic study, and sharpened through hands-on
+            projects. I specialize in translating designs into living, breathing
+            web pages, paying close attention to performance, responsiveness,
+            and the small details that make a product feel polished. I'm eager
+            to join a team where I can contribute, grow, and ship great
+            products.</i
+          >
+        </p>
+
+        <a href="projects.html">
+          <button
+            class="btn btn-primary"
+            type="button"
+            style="margin-left: 30%; margin-top: 20px"
+          >
+            <i>View my work</i>
+          </button>
+        </a>
+      </div>
     </div>
-  </div>
-</nav> <br>
-  
 
-    <h1 style="text-align: center; margin-bottom: 70px;"><b><i class="fa-solid fa-user-tie" style="color: navy;"></i> About Me</b></h1>
-    <img src="me.jpg" alt="A photo of Malen Pride" style="width: 200px; height: 250px;border-radius: 50%; margin-left: 40%; float: inline-end; margin: 0px 50px;"
-   
-    div id="about">
-   <h4 style="margin-left: 8%;"> <i class="fa-regular fa-lightbulb" style="color: gold;"></i><i>WHO AM I??</i></h4>
-   <p style="text-align: left; margin-left: 20px;">I am Malen Pride, a front end developer driven by the belief that every user deserves a fast, beautiful, and accesible digital experience. my journey started with the curiosity about how websites work, evolved through academic study, and sharpened through hanfs-on projects.
-    i specialose in translating designs into living, breathing web pages, paying close attention to performance, responsivensess, and the small deetails that make a product feel polished. im eager to join a team where I can contribute, grow, and ship great products.
-   </p>
+    <div
+      class="core"
+      style="margin-top: 90px; margin-left: 50px; line-height: 0.2"
+    >
+      <i>
+        <h5>
+          <i class="fa-regular fa-star" style="color: gold"></i>
+          <b>WHAT DO I BRING??</b>
+        </h5></i
+      >
+      <b><h3>Core Competencies</h3></b>
+    </div>
 
-   <a href="projects.html">
-    <button class="btn btn-primary" type="button;"  style="margin-left: 30%; margin-top: 10px;" > <i>View my work</i></button>
+    <section class="Cards">
+      <div class="card">
+        <img src="ui 2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">UI Development</h5>
+          <p class="card-text">
+            <i
+              >Crafting accessible and responsive user interfaces with HTML &
+              CSS.</i
+            >
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="js 1.avif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">
+            <i
+              >Building interactive and dynamic web applications with modern
+              JavaScript frameworks.</i
+            >
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="dev 3.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Dev Tooling</h5>
+          <p class="card-text">
+            <i>
+              With Git, VS Code, Figma, Netlify, among other modern development
+              tools.</i
+            >
+          </p>
+        </div>
+      </div>
+    </section>
 
-   </a>
+    <h4 style="margin-top: 80px; text-align: center">
+      <i class="fa-regular fa-circle-user" style="color: dodgerblue"></i
+      ><i
+        >Want to know the person behind the code,
+        <i class="fa-regular fa-handshake" style="color: gold"></i>Let's
+        Connect.</i
+      >
+    </h4>
 
-   
-   </div>
-   
-    <h3 style="text-align: center; margin-top: 80px; margin-bottom: 3px; color: #1B4F72;"><i class="fa-solid fa-hammer"></i> Skills & Tools</h3> 
-    <div id="work">
-   <ul class="skills">
-    <h2 style="color: white;">Skills</h2>
-    <li>HTML5</li>
-    <li >CSS</li>
-    <li>JavaScript</li>
-   </ul>
+    <section class="Cards1">
+      <div class="card">
+        <img src="js 4.avif" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Hey, I'm Malen Pride.</h5>
+          <p class="card-text">
+            <i
+              >A frontend developer with a deep love for creating beautiful web
+              experiences.</i
+            >
+          </p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="NEW 4.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Open to new opportunities.</h5>
+          <p class="card-text">
+            <i
+              >Whether your hiring, collaborating, or just want to connect, my
+              inbox is always open..</i
+            >
+          </p>
+          <a href="#" class="btn btn-primary">Let's Connect</a>
+        </div>
+      </div>
+    </section>
 
-  
-   <ul class="tools">
-   <h2 style="color: white;">Tools</h2>
-   <li>GitHub</li>
-   <li>VS Code</li>
-   <li>Figma</li>
-   <li>Netlify</li>
-   </ul>
+    <footer class="footer">
+      @2026 Malen Pride. "HTML, CSS & JavaScript."
+      <i class="fa-brands fa-linkedin" style="margin-left: 30px"></i>
+      <i class="fa-brands fa-x-twitter" style="margin-left: 10px"></i
+      ><i class="fa-brands fa-github" style="margin-left: 10px"></i>
+    </footer>
 
-   </div>
-
-  <footer>
-    @2026 Malen Pride. "HTML, CSS & JavaScript." <i class="fa-brands fa-linkedin" style="margin-left: 30px;"></i> <i class="fa-brands fa-x-twitter" style="margin-left: 10px;"></i><i class="fa-brands fa-github" style="margin-left: 10px;"></i>
-
-  </footer>
-
-   
-
-    
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

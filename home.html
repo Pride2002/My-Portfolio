@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -20,157 +20,115 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><b>My Portfolio</b></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="projects.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <br />
-
-    <section class="hesection">
-      <div class="intro">
-        <h1>
-          <b><i>Hello, my name is Malen Pride.</i></b>
-        </h1>
-        <p>
-          <i
-            >I am a frontend web developer, passionate about creating engaging
-            and user-friendly websites. <br />
-            I create visually appealing and responsive web applications that
-            provide seamless user experiences. <br />
-            Passionate about clean code, elegant UI and turning ideas into
-            pixel-perfect reality.</i
+    <div id="home">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: white"
+            ><b>MALEN PRIDE</b></a
           >
-        </p>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html" style="color: white"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="about.html"
+                  style="color: white"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="projects.html"
+                  style="color: white"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="contact.html"
+                  style="color: white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hesection">
+        <div class="intro">
+          <h1>
+            <i>Hi, <br />my name is Malen Pride.</i>
+          </h1>
+          <h4><i>Web Developer | UI/UX Designer.</i></h4>
+          <p>
+            <i
+              >I am a web developer, passionate about turning ideas into
+              pixel-perfect reality, <br />
+              and creating engaging and user-friendly websites.</i
+            >
+          </p>
+        </div>
+
+        <a href="projects.html" class="btn btn-primary" style="margin-top: 30px"
+          >View My Work</a
+        >
+      </section>
+
+      <h3
+        style="
+          text-align: center;
+          margin-top: 80px;
+          margin-bottom: 3px;
+          color: white;
+        "
+      >
+        <i class="fa-solid fa-hammer"></i> Skills & Tools
+      </h3>
+      <div id="work">
+        <ul class="skills">
+          <h2 style="color: black">Skills</h2>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <ul class="tools">
+          <h2 style="color: black">Tools</h2>
+          <li>GitHub</li>
+          <li>VS Code</li>
+          <li>Figma</li>
+          <li>Netlify</li>
+        </ul>
       </div>
 
-      <a href="projects.html" class="btn btn-primary">View My Work</a>
-    </section>
-
-    <div
-      class="core"
-      style="margin-top: 60px; margin-left: 50px; line-height: 0.2"
-    >
-      <i>
-        <h5>
-          <i class="fa-regular fa-star" style="color: gold"></i>
-          <b>WHAT DO I BRING??</b>
-        </h5></i
-      >
-      <b><h3>Core Competencies</h3></b>
+      <footer>
+        @2026 Malen Pride. "HTML, CSS & JavaScript."
+        <i class="fa-brands fa-linkedin" style="margin-left: 30px"></i>
+        <i class="fa-brands fa-x-twitter" style="margin-left: 10px"></i
+        ><i class="fa-brands fa-github" style="margin-left: 10px"></i>
+      </footer>
     </div>
-
-    <section class="Cards">
-      <div class="card">
-        <img src="ui 2.webp" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">UI Development</h5>
-          <p class="card-text">
-            <i
-              >Crafting accessible and responsive user interfaces with HTML &
-              CSS.</i
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="js 1.avif" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">JavaScript</h5>
-          <p class="card-text">
-            <i
-              >Building interactive and dynamic web applications with modern
-              JavaScript frameworks.</i
-            >
-          </p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="dev 3.webp" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Dev Tooling</h5>
-          <p class="card-text">
-            <i>
-              With Git, VS Code, Figma, Netlify, among other modern development
-              tools.</i
-            >
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <h4 style="margin-top: 40px; text-align: center">
-      <i class="fa-regular fa-circle-user" style="color: dodgerblue"></i
-      ><i
-        >Want to know the person behind the code,
-        <i class="fa-regular fa-handshake" style="color: gold"></i>Let's
-        Connect.</i
-      >
-    </h4>
-
-    <section class="Cards1">
-      <div class="card">
-        <img src="js 4.avif" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Hey, I'm Malen Pride.</h5>
-          <p class="card-text">
-            <i
-              >A frontend developer with a deep love for creating beautiful web
-              experiences.</i
-            >
-          </p>
-          <a href="#" class="btn btn-primary">Read More</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="NEW 4.webp" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">Open to new opportunities.</h5>
-          <p class="card-text">
-            <i
-              >Whether your hiring, collaborating, or just want to connect, my
-              inbox is always open..</i
-            >
-          </p>
-          <a href="#" class="btn btn-primary">Let's Connect</a>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      @2026 Malen Pride. "HTML, CSS & JavaScript."
-      <i class="fa-brands fa-linkedin" style="margin-left: 30px"></i>
-      <i class="fa-brands fa-x-twitter" style="margin-left: 10px"></i
-      ><i class="fa-brands fa-github" style="margin-left: 10px"></i>
-    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -1,30 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Nav bar */
 .navbar-nav {
   margin-left: auto !important;
 }
 
-#navbarNav {
-  margin-left: auto;
-  margin-right: 20px;
+.navbar {
+  margin-bottom: 0;
 }
+
 .container-fluid {
   display: flex;
   background-color: #1b4f72;
 }
 
-/* Home webpage */
+/* Home page */
+#home {
+  background-color: #1b4f72;
+  color: white !important;
+}
+
 .core {
   margin-top: 100px;
   margin-left: 50px;
 }
 
 .hesection {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   line-height: 30px;
   font-size: larger;
 }
 
+#work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.skills {
+  border: 2px solid darkgoldenrod;
+  margin-top: 50px;
+  padding: 30px 130px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  background-clip: padding-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: black !important;
+}
+
+.tools {
+  border: 2px solid darkgoldenrod;
+  margin-top: 50px;
+  padding: 30px 130px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  background-clip: padding-box;
+  overflow: hidden;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: black;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* About me */
+
+#head {
+  background-color: #1b4f72;
+  color: white;
+}
+
+#about {
+  height: 420px;
+}
 .Cards {
   display: flex;
   justify-content: space-between;
@@ -73,42 +133,6 @@
   margin: 26px 0 100px 0;
 }
 
-.footer {
-  text-align: center;
-  margin-top: 100px;
-}
-
-/* About me */
-
-#work {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 100px;
-}
-
-.skills {
-  border: 2px solid darkgoldenrod;
-  margin-top: 50px;
-  padding: 30px 130px;
-  text-align: center;
-  background-color: darkgoldenrod;
-  background-clip: padding-box;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-
-.tools {
-  border: 2px solid darkgoldenrod;
-  margin-top: 50px;
-  padding: 30px 130px;
-  text-align: center;
-  background-color: darkgoldenrod;
-  background-clip: padding-box;
-  overflow: hidden;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-
 /* Projects */
 #projects {
   display: flex;
@@ -125,17 +149,18 @@
 
 /* Contact */
 .form {
-  border: 2px solid darkgoldenrod;
+  border: 1px solid grey;
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 80%;
+  width: 35%;
+  height: 70%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  background-color: darkgoldenrod;
   background-clip: padding-box;
   box-sizing: border-box;
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .tel {
@@ -148,7 +173,7 @@
 }
 
 footer {
-  padding: 8px;
+  padding: 12px;
   text-align: center;
   background-color: #1b4f72;
   color: white;
