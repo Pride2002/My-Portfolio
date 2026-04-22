@@ -12,6 +12,15 @@ body {
   margin-left: auto !important;
 }
 
+.navbar-brand {
+    margin-left: 60px;
+}
+
+.nav-item {
+    margin-right: 10px;
+    
+}
+
 .navbar {
   margin-bottom: 0;
 }
