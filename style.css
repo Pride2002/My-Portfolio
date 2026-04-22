@@ -1,0 +1,155 @@
+/* Nav bar */
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+#navbarNav {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.container-fluid {
+  display: flex;
+  background-color: #1b4f72;
+}
+
+/* Home webpage */
+.core {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.hesection {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size: larger;
+}
+
+.Cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 40px 10px;
+}
+
+.card {
+  flex: 1 1 0;
+  min-width: 220px;
+  max-width: 350px;
+  background: white;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(27, 79, 114, 0.07);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: darkblue !important;
+}
+
+.card-body {
+  padding: 10px 16px;
+  text-align: center;
+  width: 100%;
+  flex: 1 1 auto;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Cards1 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 26px 0 100px 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* About me */
+
+#work {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.skills {
+  border: 2px solid darkgoldenrod;
+  margin-top: 50px;
+  padding: 30px 130px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  background-clip: padding-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.tools {
+  border: 2px solid darkgoldenrod;
+  margin-top: 50px;
+  padding: 30px 130px;
+  text-align: center;
+  background-color: darkgoldenrod;
+  background-clip: padding-box;
+  overflow: hidden;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* Projects */
+#projects {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 70px;
+  margin-bottom: 130px;
+}
+
+.proj {
+  text-align: center;
+  line-height: 0.9;
+}
+
+/* Contact */
+.form {
+  border: 2px solid darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: darkgoldenrod;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+
+.tel {
+  margin-left: 0px;
+  margin-top: 100px;
+}
+
+.list {
+  list-style-position: inside;
+}
+
+footer {
+  padding: 8px;
+  text-align: center;
+  background-color: #1b4f72;
+  color: white;
+}
